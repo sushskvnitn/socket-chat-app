@@ -6,12 +6,11 @@
 }
 body {
   background-image: linear-gradient(95deg, rgba(7, 0, 0, 0), rgb(4, 1, 44));
-  height: 100vh;
+  height: 95vh;
 }
 .container {
   max-width: 955px;
   background-image:  linear-gradient(180deg, rgba(7, 0, 0, 0), rgb(4, 1, 44));
-  border: 2px solid cyan;
   margin: auto;
   height: 80vh;
   overflow-y: auto;
@@ -32,6 +31,7 @@ body {
   float: right;
   clear: both;
 }
+
 #send-container{
     display: block;
     margin: auto;

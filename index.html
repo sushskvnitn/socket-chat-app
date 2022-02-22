@@ -7,21 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chit-chat:realtime node socket.io chat app</title>
     <link rel="stylesheet" href="app.css">
+    <!-- main java script files -->
     <script defer  src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script defer  src="js/client.js"></script>
+
+
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
 </head>
 
 <body>
-    <nav>
+    <nav class="bg-dark ">
         <img src="chat.jpg" alt="" class="logo" srcset="">
-    </nav>
+       <strong><h2 class="text-center text-white"> welcome to chit-chat application </h2></strong> 
+    </nav >
     <div class="container">
        
     </div>
 <div class="send" >
-    <form action="#" id="send-container">
-       <input type="text"  name=" message"  id="msginp" > 
-        <button type="submit" class="btn" >  send</button>
+    <form action="#" class="fixed-bottom" id="send-container">
+       <input type="text" class="input"  required name=" message"  id="msginp" > 
+        <button type="submit" class="btn btn-danger " >  send</button>
     </form>
 </div>
 

@@ -14,6 +14,7 @@ io.on("connection", (socket) => {
     socket.broadcast.emit("user-joined", name); //to broadcast msg to other users
   });
   socket.on("send", (message) => {
+   
     socket.broadcast.emit("receive", {
       message: message,
       name: users[socket.id],
